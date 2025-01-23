@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fourth page</title>
+    <link rel="stylesheet" href="/CSS/four.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <!-- <div class="drop"></div> -->
+        <nav>
+            
+            <div class="sidebar">
+                <div class="close" onclick=hideSidebar()><a href="#"><svg width="20" height="20" viewBox="0 0 14 14" fill="black" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.524 0L7 5.524L1.476 0L0 1.476L5.524 7L0 12.524L1.476 14L7 8.476L12.524 14L14 12.524L8.476 7L14 1.476L12.524 0Z" fill="black"/>
+                    </svg></a>
+                    </div>
+            </div>
+            <div class="logo">
+                <div class="menuicon" onclick=showSidebar()>
+                    <a href="#" ><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 26 26" width="30px" height="26px"><path d="M 0 4 L 0 6 L 26 6 L 26 4 Z M 0 12 L 0 14 L 26 14 L 26 12 Z M 0 20 L 0 22 L 26 22 L 26 20 Z"/></svg></a>
+                </div>
+                <a href="/index.html" ><img src="/IMAGES/download (1).svg" alt="" style="width: 8rem; height: 1.5rem;"></a>
+            </div>
+            <div class="nav-item">
+                <button class="find">
+                    <span>Find talent</span>
+                    <!-- <svg class="svg" xmlns="http://www.w3.org/2000/svg" fill="none" aria-hidden="true" viewBox="0 0 24 24" role="img" width="20px"><path vector-effect="non-scaling-stroke" stroke="var(--icon-color, #001e00)" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5" d="M18 10l-6 5-6-5"></path></svg> -->
+                    <!-- <div class="drop"></div> -->
+                </button>
+                <button>
+                    <span>Find work</span>
+                    <svg class="svg" xmlns="http://www.w3.org/2000/svg" fill="none" aria-hidden="true" viewBox="0 0 24 24" role="img" width="20px"><path vector-effect="non-scaling-stroke" stroke="var(--icon-color, #001e00)" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5" d="M18 10l-6 5-6-5"></path></svg>
+                    <div class="drop2">
+                        <div class="dp-child">
+                            <ul class="dp-cont">
+                                <a href="" id="dp-link">
+                                    <strong>Ways to earn</strong>
+                                    <span>Learn why Upwork has the right opportunities for you.</span>
+                                </a>
+                            </ul>
+                            <ul class="dp-cont">
+                                <a href="" id="dp-link">
+                                    <strong>Find work for your skills</strong>
+                                    <span>Explore the kind of work available in your field.</span>
+                                </a>
+                            </ul>
+                            <ul class="dp-cont">
+                                <a href="" id="dp-link">
+                                    <strong>Win work with ads</strong>
+                                    <span>Get noticed by the right client.</span>
+                                </a>
+                            </ul>
+                            <ul class="dp-cont">
+                                <a href="" id="dp-link">
+                                    <strong>Join Freelancer Plus</strong>
+                                    <span>Access more Connects, get strategic insights on competitors, and try out the latest tools.</span>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                </button>
+                <button>
+                    <span>Why Upwork</span>
+                    <!-- <svg id="svg" xmlns="http://www.w3.org/2000/svg" fill="none" aria-hidden="true" viewBox="0 0 24 24" role="img" width="20px" ><path vector-effect="non-scaling-stroke" stroke="var(--icon-color, #001e00)" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5" d="M18 10l-6 5-6-5"></path></svg> -->
+                </button>
+                <a href=""><span>Enterprise</span></a>
+
+            </div>
+
+            <div class="signquery">
+                <a href="">Sign Up</a>
+                <img src="/IMAGES/search icon.png" alt="">
+            </div>
+            <div class="SignUp">
+                <div class="search">
+                    <i style="margin-left: 10px; margin-bottom: .5rem;"><svg xmlns="http://www.w3.org/2000/svg" height="25px" viewBox="0 -1190 960 960" width="25px" fill="black" ><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z " /></svg></i>
+                    <input type="search" placeholder="Search">
+                    
+                    <button class="tdrop">
+                        <span>Talent</span>
+                        <div class="talentdrop">
+                            <p>
+                                <img src="" alt="">
+                                <div>
+                                    <h5></h5>
+                                    <span></span>
+                                </div>
+                            </p>
+                            <p>
+                                <img src="" alt="">
+                                <div>
+                                    <h5></h5>
+                                    <span></span>
+                                </div>
+                            </p>
+                            <p>
+                                <img src="" alt="">
+                                <div>
+                                    <h5></h5>
+                                    <span></span>
+                                </div>
+                            </p>
+                        </div>
+                        <i></i>
+                    </button>
+                </div>
+                <div class="button">
+                    <a href="">Login</a>
+                    <a href="">SignUp</a>
+                </div>
+            </div>
+        </nav>
+        <nav class="nav2">
+            <nav class="nav2">
+                <ul>
+                    <a href="/PAGES/two.html">Development & IT</a>
+                    <a href="#">AI Services</a>
+                    <a href="/PAGES/three.html">Design & Creative</a>
+                    <a href="/PAGES/four.html">Sales & Marketing</a>
+                    <a href="#">Admin & Customer Support</a>
+                    <button>More <i><svg xmlns="http://www.w3.org/2000/svg" fill="none" aria-hidden="true" viewBox="0 0 24 24" role="img" width="20px"><path vector-effect="non-scaling-stroke" stroke="var(--icon-color, #001e00)" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5" d="M18 10l-6 5-6-5"></path></svg></i>
+                    <div class="more">
+                        <a href="" id="dp">Writing and Translation</a>
+                        <a href="/PAGES/five.html" id="dp">Finance and Accounting</a>
+                        <a href="" id="dp">HR and Training</a>
+                        <a href="" id="dp">Legal</a>
+                        <a href="" id="dp">Engineering and Architecture</a>
+                        <a href="" id="dp">see all specialization</a>
+                    </div></button>
+                </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="section1">
+            <div class="sec1flex1">
+                <h1>Scale when you need to with marketing and sales experts</h1>
+                <p>Build some buzz around your business with professionals from the world’s work marketplace.</p>
+                <a href="">Get started</a>
+            </div>
+            <div class="sec1flex2">
+                <img src="https://cdn.prod.website-files.com/604761b6a7e539ea274cfd6b/6630f4f79fbe111eb1c5f56e_Image%20(1).webp" alt="">
+            </div>
+        </div>
+        <!-- <div class="section2">
+            <div class="icon">
+                <p>TRUSTED BY</p>
+                <img src="https://cdn.prod.website-files.com/603fea6471d9d8559d077603/662e48b170078c42069a52c6_Microsoft.svg" alt="">
+                <img src="https://cdn.prod.website-files.com/603fea6471d9d8559d077603/662e48b170078c42069a5313_pngwing%201.svg" alt="" >
+                <img src="https://cdn.prod.website-files.com/603fea6471d9d8559d077603/662e48b170078c42069a530e_Group%207384.svg" alt="">
+                <img src="https://cdn.prod.website-files.com/603fea6471d9d8559d077603/662e48b270078c42069a532a_Bissell_logo%202.svg" alt="">
+                <img src="https://cdn.prod.website-files.com/603fea6471d9d8559d077603/66d1badb0f2a04e5454c9255_6467fdfb5cf8b0504c7f3c1b_Cloudflare-Logo.wine-p-500.png" alt="">
+            </div>
+        </div> -->
+
+        <div class="section3">
+            <div class="sec3child">
+                <h2>Specialized sales experts and marketing <br> professionals you can count on</h2>
+                <div class="contracts">
+                    <div class="contractschild">
+                        <div class="star">
+                            <img src="https://cdn.prod.website-files.com/603fea6471d9d8559d077603/662ea081f8ac0adbf88bfea6_Frame%20864079.svg" alt="">
+                            <h3>4.78</h3>
+                        </div>
+                        <div>Average rating for work with sales and marketing talent.</div>
+                    </div>
+                    <div class="contractschild">
+                        <div>
+                            <h3>65K+ contracts</h3>
+                        </div>
+                        <div>Involving sales and marketing work in the past year.</div>
+                    </div>
+                    <div class="contractschild">
+                        <div>
+                            <h3>358 skills</h3>
+                        </div>
+                        <div>
+                            Represented by talent on Upwork.
+                        </div>
+                    </div>
+                </div>
+                <div class="grid">
+                    <a href="" class="gridchild">
+                        <div class="developer">SEM Specialists</div>
+                        <div class="rate">
+                            <img src="https://cdn.prod.website-files.com/603fea6471d9d8559d077603/662ea081f8ac0adbf88bfea6_Frame%20864079.svg" alt="">
+                            <div>4.8</div>
+                            <div>average rating</div>
+                        </div>
+                        <div class="people">
+                            <div class="peoplechild">
+                                <img src="https://cdn.prod.website-files.com/604761b6a7e539ea274cfd6b/604ca550f9cdceaa8c548305_5f036715e4ce50c33a3ef3e7_PHP-1.jpeg" alt="">
+                                <img src="https://cdn.prod.website-files.com/604761b6a7e539ea274cfd6b/604ca550f9cdce2b03548306_5f036719f754608a3752aff9_PHP-2.jpeg" alt="">
+                                <img src="https://cdn.prod.website-files.com/604761b6a7e539ea274cfd6b/604ca550f9cdce2724548307_5f03671ee1e2a8196a25cec8_PHP-3.jpeg" alt="">
+                            </div>
+                            <img src="https://cdn.prod.website-files.com/603fea6471d9d8559d077603/662ea253229a74f971ffd938_Link%20Button%20(1).svg" alt="" class="arrow">
+                        </div>
+                    </a>
+                    <a href="" class="gridchild">
+                        <div class="developer">SEO Specialists</div>
+                        <div class="rate">
+                            <img src="https://cdn.prod.website-files.com/603fea6471d9d8559d077603/662ea081f8ac0adbf88bfea6_Frame%20864079.svg" alt="">
+                            <div>4.8</div>
+                            <div>average rating</div>
+                        </div>
+                        <div class="people">
+                            <div class="peoplechild">
+                                <img src="https://cdn.prod.website-files.com/604761b6a7e539ea274cfd6b/604ca5535230ce49d8775a5a_5f03688325a9f8a4796d00b0_JavaScript-1.jpeg" alt="">
+                                <img src="https://cdn.prod.website-files.com/604761b6a7e539ea274cfd6b/604ca5535230ced0ae775a5b_5f036888fd091053bd1f8fc8_JavaScript-2.jpeg" alt="">
+                                <img src="https://cdn.prod.website-files.com/604761b6a7e539ea274cfd6b/604ca5535230ce7b71775a5c_5f03688c206849343049e785_JavaScript-3.jpeg" alt="">
+                            </div>
+                            <img src="https://cdn.prod.website-files.com/603fea6471d9d8559d077603/662ea253229a74f971ffd938_Link%20Button%20(1).svg" alt="" class="arrow">
+                        </div>
+                    </a>
+                    <a href="" class="gridchild">
+                        <div class="developer">Social Media Managers</div>
+                        <div class="rate">
+                            <img src="https://cdn.prod.website-files.com/603fea6471d9d8559d077603/662ea081f8ac0adbf88bfea6_Frame%20864079.svg" alt="">
+                            <div>4.8</div>
+                            <div>average rating</div>
+                        </div>
+                        <div class="people">
+                            <div class="peoplechild">
+                                <img src="https://cdn.prod.website-files.com/604761b6a7e539ea274cfd6b/604ca55350708cf1c441dea4_5f0368df2a29d9b00e2ec0b4_ios-1.jpeg" alt="">
+                                <img src="https://cdn.prod.website-files.com/604761b6a7e539ea274cfd6b/604ca55350708c369541dea3_5f0368e3206849ea814a2957_ios-2.jpeg" alt="">
+                                <img src="https://cdn.prod.website-files.com/604761b6a7e539ea274cfd6b/604ca55350708c60f441dea2_5f0368e88e23f959c7f7978b_ios-3.jpeg" alt="">
+                            </div>
+                            <img src="https://cdn.prod.website-files.com/603fea6471d9d8559d077603/662ea253229a74f971ffd938_Link%20Button%20(1).svg" alt="" class="arrow">
+                        </div>
+                    </a>
+                    <a href="" class="gridchild">
+                        <div class="developer">Paid Media Experts</div>
+                        <div class="rate">
+                            <img src="https://cdn.prod.website-files.com/603fea6471d9d8559d077603/662ea081f8ac0adbf88bfea6_Frame%20864079.svg" alt="">
+                            <div>4.8</div>
+                            <div>average rating</div>
+                        </div>
+                        <div class="people">
+                            <div class="peoplechild">
+                                <img src="https://cdn.prod.website-files.com/604761b6a7e539ea274cfd6b/604ca5525984ff20e7d0304c_5f036929f2bcb0d0ce19a4c1_QA-1.jpeg" alt="">
+                                <img src="https://cdn.prod.website-files.com/604761b6a7e539ea274cfd6b/604ca5525984ff0f0ed0304b_5f03692e33d69f683f0f99e5_QA-2.jpeg" alt="">
+                                <img src="https://cdn.prod.website-files.com/604761b6a7e539ea274cfd6b/604ca5525984ff3ea7d0304a_5f03693273c763275c864e39_QA-3.jpeg" alt="">
+                            </div>
+                            <img src="https://cdn.prod.website-files.com/603fea6471d9d8559d077603/662ea253229a74f971ffd938_Link%20Button%20(1).svg" alt="" class="arrow">
+                        </div>
+                    </a>
+                    <a href="" class="gridchild">
+                        <div class="developer">Email Marketers</div>
+                        <div class="rate">
+                            <img src="https://cdn.prod.website-files.com/603fea6471d9d8559d077603/662ea081f8ac0adbf88bfea6_Frame%20864079.svg" alt="">
+                            <div>4.8</div>
+                            <div>average rating</div>
+                        </div>
+                        <div class="people">
+                            <div class="peoplechild">
+                                <img src="https://cdn.prod.website-files.com/604761b6a7e539ea274cfd6b/604ca5520f9e6bbb0f972062_5f036981fd091060b61fe172_Data_scientist-1.jpeg" alt="">
+                                <img src="https://cdn.prod.website-files.com/604761b6a7e539ea274cfd6b/604ca5520f9e6bde70972063_5f0369850c0267780913304f_Data_scientist-2.jpeg" alt="">
+                                <img src="https://cdn.prod.website-files.com/604761b6a7e539ea274cfd6b/604ca5520f9e6b81d3972064_5f0369895b8ff1fd31b10b15_Data_scientist-3.jpeg" alt="">
+                            </div>
+                            <img src="https://cdn.prod.website-files.com/603fea6471d9d8559d077603/662ea253229a74f971ffd938_Link%20Button%20(1).svg" alt="" class="arrow">
+                        </div>
+                    </a>
+                    <a href="" class="gridchild">
+                        <div class="developer">Marketing Analysts</div>
+                        <div class="rate">
+                            <img src="https://cdn.prod.website-files.com/603fea6471d9d8559d077603/662ea081f8ac0adbf88bfea6_Frame%20864079.svg" alt="">
+                            <div>4.8</div>
+                            <div>average rating</div>
+                        </div>
+                        <div class="people">
+                            <div class="peoplechild">
+                                <img src="https://cdn.prod.website-files.com/604761b6a7e539ea274cfd6b/604ca551813f9420b25a6307_5f0383cda150e2415148d0bc_lukas.jpeg" alt="">
+                                <img src="https://cdn.prod.website-files.com/604761b6a7e539ea274cfd6b/604ca551813f94c6c35a6309_5f0369cb05112e00ce03ae4e_infra-2.jpeg" alt="">
+                                <img src="https://cdn.prod.website-files.com/604761b6a7e539ea274cfd6b/604ca551813f94d3625a6308_5f0369cf73c76363a2867730_infra-3.jpeg" alt="">
+                            </div>
+                            <img src="https://cdn.prod.website-files.com/603fea6471d9d8559d077603/662ea253229a74f971ffd938_Link%20Button%20(1).svg" alt="" class="arrow">
+                        </div>
+                    </a>
+                    <a href="" class="gridchild">
+                        <div class="developer">Market Researchers</div>
+                        <div class="rate">
+                            <img src="https://cdn.prod.website-files.com/603fea6471d9d8559d077603/662ea081f8ac0adbf88bfea6_Frame%20864079.svg" alt="">
+                            <div>4.8</div>
+                            <div>average rating</div>
+                        </div>
+                        <div class="people">
+                            <div class="peoplechild">
+                                <img src="https://cdn.prod.website-files.com/604761b6a7e539ea274cfd6b/604ca550f59e8fbaa4e094d6_5f036a2048a6368f2abe0529_SQL-1.jpeg" alt="">
+                                <img src="https://cdn.prod.website-files.com/604761b6a7e539ea274cfd6b/604ca550f59e8f36e2e094d7_5f036a24d90b8a2d4236e422_SQL-2.jpeg" alt="">
+                                <img src="https://cdn.prod.website-files.com/604761b6a7e539ea274cfd6b/604ca550f59e8f079ce094d5_5f036a2aaa6b88796bbac4fb_SQL-3.jpeg" alt="">
+                            </div>
+                            <img src="https://cdn.prod.website-files.com/603fea6471d9d8559d077603/662ea253229a74f971ffd938_Link%20Button%20(1).svg" alt="" class="arrow">
+                        </div>
+                    </a>
+                    <a href="" class="gridchild">
+                        <div class="developer">Sales Representatives</div>
+                        <div class="rate">
+                            <img src="https://cdn.prod.website-files.com/603fea6471d9d8559d077603/662ea081f8ac0adbf88bfea6_Frame%20864079.svg" alt="">
+                            <div>4.8</div>
+                            <div>average rating</div>
+                        </div>
+                        <div class="people">
+                            <div class="peoplechild">
+                                <img src="https://cdn.prod.website-files.com/604761b6a7e539ea274cfd6b/60b9c47fb1673f3bfb51104e_Regulatory%20Compliance%20Specialists%208c.jpg" alt="">
+                                <img src="https://cdn.prod.website-files.com/604761b6a7e539ea274cfd6b/60b9c47b2067027b85c6480a_Regulatory%20Compliance%20Specialists%208b.jpg" alt="">
+                                <img src="https://cdn.prod.website-files.com/604761b6a7e539ea274cfd6b/60b9c4791581a964de0108b6_Regulatory%20Compliance%20Specialists%208a.jpg" alt="">
+                            </div>
+                            <img src="https://cdn.prod.website-files.com/603fea6471d9d8559d077603/662ea253229a74f971ffd938_Link%20Button%20(1).svg" alt="" class="arrow">
+                        </div>
+                    </a>
+                </div>
+                <div class="skills">
+                    <a href="">See More Skills</a>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="section4">
+            <div><h2>Sales and Marketing projects for your most <br> pressing work</h2></div>
+            <div class="developement">
+                    <div class="dev1">
+                        <div class="devchild">
+                            <div>Social Media Management</div>
+                            <p>Grow your following on Facebook, Instagram, and LinkedIn with a full range of social media management services.</p>
+                        </div>
+                        <div class="devchild">
+                            <div>Lead Generation</div>
+                        </div>
+                        <div class="devchild">
+                            <div>SEO</div>
+                        </div>
+                        <div class="devchild">
+                            <div>Facebook Advertising</div>
+                        </div>
+                        <div class="devchild">
+                            <div>Marketing Strategy</div>
+                        </div>
+                        <div class="devchild">
+                            <div>Video Marketing</div>
+                        </div>
+                    </div>
+                <div class="dev2">
+                    <img src="https://cdn.prod.website-files.com/604761b6a7e539ea274cfd6b/604ca6a14fc50c2616d26040_6037e4351262357f253d8423_Social_Media-Marketing_shutterstock_701002669-sm-p-1080.jpeg" alt="">
+                </div>
+            </div>
+            <div><a href="">Browse projects</a></div>
+        </div>
+
+        <div class="section5">
+            <div class="experts">
+                <div class="experts1">
+                    <div class="expertschild">
+                        <div>
+                            ENTERPRISE SUITE</div>
+                        <h2>This is how IT Experts <br> work now</h2>
+                        <p>Build an agile workforce that moves faster than the pace of <br> business with Enterprise Suite.</p>
+                        <a href="">Find out how</a>
+                    </div>
+                </div>
+                <div class="experts2">
+                    <img src="https://cdn.prod.website-files.com/603fea6471d9d8559d077603/6630f577b33f5e0c8e9a8579_image%20284.webp" alt="">
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="section6">
+            <div class="fingertip">
+                <div class="fingertip1">
+                    <h2>How Upwork works for <br> clients</h2>
+                    <div>
+                        <h3>A graphic design pro creates a logo, branding, and style guide</h3>
+                        <p>"If you have an opportunity to hire Felice, don't delay! He has great ideas, but is open <br> to feedback and changes. He was always well prepared, kept me informed, met his <br> timelines, and delivered what he said and more. My best experience on Upwork. In <br> fact, I've started up another project with him and am still working with him."</p>
+                        <div class="budget">
+                            <div class="budget1">
+                                <img src="https://cdn.prod.website-files.com/603fea6471d9d8559d077603/662e4cc8594ce48fd9034229_Rating.svg" alt="">
+                                <div>5.0</div>
+                            </div>
+                            <div>Budget: $1,580</div>
+                        </div>
+                        <div class="swift">
+                            <div class="swift1">Skills</div>
+                            <div class="swift2">
+                                <div>Brand Identity</div>
+                                <div>Logo Design</div>
+                                <div>Graphic Design</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fingertip2">
+                    <img src="https://cdn.prod.website-files.com/604761b6a7e539ea274cfd6b/6083c51edb2acb62ccd91d62_Project-Example%402x%20(1).jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="section7">
+            <div class="demand1">
+                <img src="https://cdn.prod.website-files.com/604761b6a7e539ea274cfd6b/604767395a74b378fb4c3803_5efe48821704e7808dd633d8_nasdaq_case_study.png" alt="">
+            </div>
+            <div class="demand2">
+                <div><h2>Nasdaq transforms itself <br> into a digital media leader</h2></div>
+                <div>
+                    <p>How freelance talent brought a fresh perspective to Nasdaq’s social media</p>
+                    <div class="planeparent">
+                        <div class="plane">
+                            <img src="https://cdn.prod.website-files.com/604761b6a7e539ea274cfd6b/6630f7711a1e83b200c5795c_Camera.svg" alt="">
+                            <div>80-100 Facebook Live shows per month</div>
+                        </div>
+                        <a href="">Read case study</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="section8">
+            <div class="question">
+                <div class="question1">
+                    <h2>Frequently asked <br> questions</h2>
+                </div>
+                <div class="questionchild">
+                    <div class="questiongrand">
+                        <h3>What is the first step to hiring sales and marketing talent and determining the project cost?</h3>
+                        <p>One of the first steps in hiring any talent is to determine which skills you need for your project. Upwork matches you with proven remote talent who can help you with all your development and IT needs, including:</p>
+                        <a href="">
+                            <div>Read more</div>
+                            <img src="https://cdn.prod.website-files.com/603fea6471d9d8559d077603/662ec9dff6f97fbaecacf58b_chevron-down.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="questiongrand">
+                        <h3>What are the various ways I can connect with sales and marketing talent through Upwork?
+                            </h3>
+                        <p>Upwork gives you the flexibility you need to find the right talent for your development and IT projects.</p>
+                        <a href="">
+                            <div>Read more</div>
+                            <img src="https://cdn.prod.website-files.com/603fea6471d9d8559d077603/662ec9dff6f97fbaecacf58b_chevron-down.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="questiongrand">
+                        <h3>Why should I use Upwork to find talent for sales and marketing services?</h3>
+                        <p>When it comes to development and IT, you may need a multidisciplinary team to handle the various components of your project. Examples of professionals you might need for development and IT projects include:</p>
+                        <a href="">
+                            <div>Read more</div>
+                            <img src="https://cdn.prod.website-files.com/603fea6471d9d8559d077603/662ec9dff6f97fbaecacf58b_chevron-down.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="end">
+                        <div>Still have questions?</div>
+                        <a href="">Visit our Help Center</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section9">
+            <div><h2>Find freelancers with the sales & <br>marketing skills you need</h2></div>
+            <div class="sec9child">
+                <h3>Sales & Marketing Roles</h3>
+                <div class="sec9grand">
+                    <div>
+                        <a href="">Marketing Managers</a>
+                    </div>
+                    <div>
+                        <a href="">Mobile Marketers</a>
+                    </div>
+                    <div>
+                        <a href="">Copywriters</a>
+                    </div>
+                    <div>
+                        <a href="">Sales Copywriters</a>
+                    </div>
+                </div>
+            </div>
+            <div class="sec9child">
+                <h3>Cross-functional Roles</h3>
+                <div class="sec9grand">
+                    <div>
+                        <a href="">Brand Strategists</a>
+                        <a href="">Content Strategists</a>
+                        <a href="">Copy Editors</a>
+                        <a href="">Customer Service Representatives</a>
+                    </div>
+                    <div>
+                        <a href="">Data Analysts</a>
+                        <a href="">Full Stack Developers</a>
+                        <a href="">Graphic Designers</a>
+                        <a href="">Mobile App Developers</a>
+                    </div>
+                    <div>
+                        <a href="">Project Managers</a>
+                        <a href="">Sales Engineers</a>
+                        <a href="">Video Editors</a>
+                        <a href="">Web Developers</a>
+                    </div>
+                    <div>
+                        <a href="">Marketing Managers</a>
+                        <a href="">Mobile Marketers</a>
+                        <a href="">Sales Strategy</a>
+                        <a href="">Sales Copywriters</a>
+                    </div>
+                </div>
+            </div>
+            <div class="sec9child">
+                <h3>Sales & Marketing Projects</h3>
+                <div class="sec9grand">
+                    <div>
+                        <a href="">Content Marketing Services</a>
+                        <a href="">Email Marketing Services</a>
+                        <a href="">Influencer Marketing Services</a>
+                        <a href="">Lead Generation Services</a>
+                    </div>
+                    <div>
+                        <a href="">Marketing Services</a>
+                        <a href="">Digital Marketing & PR</a>
+                        <a href="">Social Media Marketing</a>
+                        <a href="">Search Marketing</a>
+                    </div>
+                    <div>
+                        <a href="">Analytics & Strategy</a>
+                        <a href="">Other Marketing</a>
+                        <a href="">Video Marketing</a>
+                        <a href="">Lead Generation</a>
+                    </div>
+                    <div>
+                        <a href="">Music Promotion</a>
+                        <a href="">Podcast Marketing</a>
+                        <a href="">Email Marketing</a>
+                        <a href="">Social Media Management</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <footer>
+                <div class="footercontent">
+                    <div class="footerchild">
+                        <p>For Clients</p>
+                        <div class="footergrand">
+                            <a href="">How to hire</a>
+                            <a href="">Talent Marketplace</a>
+                            <a href="">Project Catalog</a>
+                            <a href="">Hire an agency</a>
+                            <a href="">Enterprise</a>
+                            <a href="">Any Hire</a>
+                            <a href="">Contract-to-hire</a>
+                            <a href="">Direct Contracts</a>
+                            <a href="">Hire worldwide</a>
+                            <a href="">Hire in the USA</a>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="footerchild">
+                        <p>For Talent</p>
+                        <div class="footergrand">
+                            <a href="">How to find work</a>
+                            <a href="">Direct Contracts</a>
+                            <a href="">Find freelance jobs worldwide</a>
+                            <a href="">Find freelance jobs in the USA</a>
+                            <a href="">Win work with ads</a>
+                            <a href="">Exclusive resources with Freelancer Plus</a>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="footerchild">
+                        <p>Resources</p>
+                        <div class="footergrand">
+                            <a href="">
+                                Help & support</a>
+                            <a href="">Success stories</a>
+                            <a href="">Upwork reviews</a>
+                            <a href="">Resources</a>
+                            <a href="">Blog</a>
+                            <a href="">Affiliate programme</a>
+                            <a href="">Free Business Tools</a>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="footerchild">
+                        <p>Company</p>
+                        <div class="footergrand">
+                            <a href="">
+                                About us</a>
+                            <a href="">Leadership</a>
+                            <a href="">Investor relations</a>
+                            <a href="">Careers</a>
+                            <a href="">Our impact</a>
+                            <a href="">Press</a>
+                            <a href="">Contact us</a>
+                            <a href="">Partners</a>
+                            <a href="">Trust, safety & security</a>
+                            <a href="">Modern slavery statement</a>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-item">
+                      <button class="accordion-header">For Clients </button>
+                      <div class="accordion-content">
+                        <p>How to hire</p>
+                        <p>Talent Marketplace</p>
+                        <p>Project Catalog</p>
+                        <p>Hire an agency</p>
+                        <p>Enterprise</p>
+                        <p>Any hire</p>
+                        <p>Contact-to-hire</p>
+                        <p>Direct contracts</p>
+                        <p>Hire worldwide</p>
+                        <p>Hire in USA</p>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <button class="accordion-header">For Talents </button>
+                      <div class="accordion-content">
+                        <p>This is the content of section 1.</p>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <button class="accordion-header">Resources </button>
+                      <div class="accordion-content">
+                        <p>This is the content of section 1.</p>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <button class="accordion-header">Company</button>
+                      <div class="accordion-content">
+                        <p>This is the content of section 2.</p>
+                      </div>
+                    </div>
+                  </div>
+                <div class="footeraddress">
+                    <div class="follow">
+                        <div>Follow us</div>
+                        <div class="followimg">
+                            <a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" aria-hidden="true" viewBox="0 0 24 24" role="img" width="25px"><path vector-effect="non-scaling-stroke" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M11.99 21V10.11a2 2 0 012-2h2.08m-6.949 5.13h6.18"></path><path vector-effect="non-scaling-stroke" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 21a9 9 0 100-18 9 9 0 000 18z"></path></svg></a>
+                            <a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" aria-hidden="true" viewBox="0 0 24 24" role="img" width="25px"><path fill="white" d="M19.67 3H4.33C3.59 3 3 3.59 3 4.33v15.34C3 20.4 3.59 21 4.33 21h15.34c.73 0 1.33-.59 1.33-1.33V4.33C21 3.6 20.41 3 19.67 3zM8.36 18.33H5.65V9.74h2.71v8.6-.01zM7.01 8.55c-.86 0-1.56-.66-1.56-1.55s.7-1.55 1.56-1.55c.86 0 1.56.66 1.56 1.55s-.7 1.55-1.56 1.55zm11.33 9.79h-2.71v-4.7c0-1.39-.59-1.81-1.35-1.81-.8 0-1.59.6-1.59 1.85v4.66H9.98v-8.6h2.6v1.19h.03c.26-.53 1.18-1.43 2.57-1.43 1.51 0 3.14.9 3.14 3.52v5.32h.02z"></path></svg></a>
+                            <a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" aria-hidden="true" viewBox="0 0 24 24" role="img" width="25px"><path fill="var(--icon-color, #001e00)" d="M13.482 10.622L20.04 3h-1.554l-5.693 6.618L8.245 3H3l6.876 10.007L3 21h1.554l6.012-6.989L15.368 21h5.245l-7.131-10.378zm-2.128 2.473l-.697-.996-5.543-7.93H7.5l4.474 6.4.697.996 5.815 8.318h-2.387l-4.745-6.787z" stroke="white" stroke-width=".9"></path></svg></a>
+                            <a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" aria-hidden="true" viewBox="0 0 24 24" role="img" width="25px"><path vector-effect="non-scaling-stroke" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 6.384a2.24 2.24 0 011.59 1.6c.274 1.45.412 2.923.41 4.4a23.468 23.468 0 01-.38 4.36A2.24 2.24 0 0119 18.382c-2.323.28-4.661.407-7 .38-2.339.027-4.677-.1-7-.38a2.24 2.24 0 01-1.59-1.6 23.47 23.47 0 01-.41-4.4 23.526 23.526 0 01.38-4.36A2.24 2.24 0 015 6.384a53.345 53.345 0 017-.38c2.339-.027 4.677.1 7 .38v0z" clip-rule="evenodd"></path><path vector-effect="non-scaling-stroke" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M14.87 12.383l-4.71-2.68v5.36l4.71-2.68z" clip-rule="evenodd"></path></svg></a>
+                            <a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" aria-hidden="true" viewBox="0 0 24 24" role="img" width="25px"><path vector-effect="non-scaling-stroke" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16 3H8a5 5 0 00-5 5v8a5 5 0 005 5h8a5 5 0 005-5V8a5 5 0 00-5-5z"></path><path vector-effect="non-scaling-stroke" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 16a4 4 0 100-8 4 4 0 000 8z"></path><path fill="white" vector-effect="non-scaling-stroke" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.34 7a.35.35 0 100-.7.35.35 0 000 .7z"></path></svg></a>
+                        </div>
+                    </div>
+                    <div class="follow">
+                        <div>Mobile app</div>
+                        <div class="followimg">
+                            <a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" aria-hidden="true" viewBox="0 0 24 24" role="img" width="25px"><path vector-effect="non-scaling-stroke" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.117 3a3.907 3.907 0 01-.87 2.918 3.607 3.607 0 01-2.778 1.409 3.657 3.657 0 01.9-2.848A4.287 4.287 0 0115.117 3z" clip-rule="evenodd"></path><path vector-effect="non-scaling-stroke" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M18.295 18.381c.453-.69.844-1.42 1.17-2.178a3.997 3.997 0 01-.53-7.204 4.586 4.586 0 00-3.458-1.83c-.705.01-1.401.16-2.048.44-.433.22-.905.353-1.389.39a4.726 4.726 0 01-1.559-.36c-.6-.25-1.24-.388-1.888-.41a4.676 4.676 0 00-3.777 2.26c-1.31 1.998-1.09 5.805.999 8.992.79 1.2 1.808 2.508 3.127 2.508.46-.01.91-.123 1.32-.33a3.997 3.997 0 013.587 0c.395.217.838.334 1.289.34 1.329-.01 2.398-1.459 3.157-2.618z" clip-rule="evenodd"></path></svg></a>
+                            <a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" aria-hidden="true" viewBox="0 0 24 24" role="img" width="25px"><path fill="var(--icon-color, #001e00)" vector-effect="non-scaling-stroke" stroke="white" stroke-miterlimit="10" stroke-width=".4" d="M9.893 6.726a.44.44 0 100-.88.44.44 0 000 .88zm3.522 0a.44.44 0 100-.88.44.44 0 000 .88z"></path><path vector-effect="non-scaling-stroke" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M11.656 3.83a5 5 0 00-5.23 4.82h10.46a5 5 0 00-5.23-4.82zm-2.501.58L8.375 3m5.791 1.41l.77-1.41"></path><path vector-effect="non-scaling-stroke" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16.896 8.648H6.426v9.2h10.47v-9.2zM4 8.648v6.3m15.314-6.3v6.3M9.57 17.85V21m4.174-3.15V21"></path></svg></a>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="footerend">
+                    <p>© 2015 - 2024 Upwork® Global Inc.</p>
+                    <div>
+                        <a href="">
+                            Terms of Service </a>
+                        <a href="">Privacy Policy</a>
+                        <a href="">CA Notice at Collection</a>
+                        <a href="">Cookie Settings</a>
+                        <a href="">Accessibility</a>
+                    </div>
+                </div>
+            </footer>
+        </div> 
+    </main>
+
+
+
+
+
+    <!-- <div class="list-wrapper">
+        <ul class="list">
+          <li class="item"><div class="content">Item 1</div></li>
+          <li class="item"><div class="content">Item 2</div></li>
+          <li class="item"><div class="content">Item 3</div></li>
+          <li class="item"><div class="content">Item 4</div></li>
+          <li class="item"><div class="content">Item 5</div></li>
+        </ul>
+        <-- We're calling `handleClick` with a direction argument when the buttons are clicked 
+        <button onclick="handleClick('previous')" class="btn button--previous" type="button">➜</button>
+        <button onclick="handleClick('next')" class="btn button--next" type="button">➜</button>
+      </div> -->
+      
+    
+</body>
+<script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+
+
+
+        document.addEventListener("DOMContentLoaded", () => {
+  const headers = document.querySelectorAll(".accordion-header");
+
+  headers.forEach((header) => {
+    header.addEventListener("click", () => {
+      const content = header.nextElementSibling;
+
+      // Close all other sections
+      document.querySelectorAll(".accordion-content").forEach((section) => {
+        if (section !== content) {
+          section.style.maxHeight = null;
+          section.classList.remove("open");
+        }
+      });
+
+      // Toggle the clicked section
+      if (content.classList.contains("open")) {
+        content.style.maxHeight = null;
+        content.classList.remove("open");
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+        content.classList.add("open");
+      }
+    });
+  });
+});
+
+
+
+        const list = document.querySelector(".list");
+      
+        // We want to know the width of one of the items. We'll use this to decide how many pixels we want our carousel to scroll.
+        const item = document.querySelector(".item");
+        const itemWidth = item.offsetWidth;
+      
+        function handleClick(direction) {
+          // Based on the direction we call `scrollBy` with the item width we got earlier
+          if(direction === "previous") {
+            list.scrollBy({ left: -itemWidth, behavior: "smooth" });
+          } else {
+            list.scrollBy({ left: itemWidth, behavior: "smooth" });
+          }
+        }
+
+    document.querySelector('.find').onmouseover = function(){
+    document.querySelector('.drop').style.display = 'block';
+    }
+    document.querySelector('.find').onmouseout = function(){
+    document.querySelector('.drop').style.display = 'none';
+    }
+
+    </script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</html>
